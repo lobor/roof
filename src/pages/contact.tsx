@@ -100,7 +100,7 @@ export default function Contact() {
             title: "Contact - Exemple",
             description:
               "Contactez-nous pour toute question ou demande d’information.",
-            images: [{ url: "/images/contact.jpg" }],
+            images: [{ url: "/roof/images/contact.jpg" }],
           },
         })}
       </Head>

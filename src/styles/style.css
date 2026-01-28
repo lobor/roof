@@ -2033,7 +2033,7 @@ h6 {
   box-shadow: 0px 5px 21px 0px rgba(238, 27, 37, 0.6);
 }
 #preloader {
-  background: #ffffff url('/img/preloader.gif') no-repeat scroll center center;
+  background: #ffffff url('/roof/img/preloader.gif') no-repeat scroll center center;
   height: 100%;
   left: 0;
   overflow: visible;
@@ -2122,7 +2122,7 @@ h6 {
 /*------------------- 4.2 Footer -------------------*/
 .footer-wrap-layout1 {
   background-color: #092d4c;
-  background-image: url('/img/figure/footer.png');
+  background-image: url('/roof/img/figure/footer.png');
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: contain;
@@ -3910,7 +3910,7 @@ div#wrapper.open > .offcanvas-mask {
 /*------------------- 5.1 About Us -------------------*/
 .about-wrap-layout1 {
   background-color: #6ac5f2;
-  background-image: url('/img/about/about-bg.png');
+  background-image: url('/roof/img/about/about-bg.png');
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -3928,7 +3928,7 @@ div#wrapper.open > .offcanvas-mask {
 }
 .about-wrap-layout5 {
   padding: 10rem 0;
-  background-image: url('/img/figure/clip10.png');
+  background-image: url('/roof/img/figure/clip10.png');
   background-repeat: no-repeat;
   background-position-y: bottom;
 }
@@ -6079,11 +6079,11 @@ div#wrapper.open > .offcanvas-mask {
   height: 89.65909091%;
 }
 .Cloud.Foreground {
-  background: url(/img/figure/cloud2.png);
+  background: url(/roof/img/figure/cloud2.png);
   background-repeat: no-repeat;
 }
 .Cloud.Background {
-  background: url(/img/figure/cloud2.png);
+  background: url(/roof/img/figure/cloud2.png);
   background-repeat: no-repeat;
 }
 /*------------------- 5.8 Faq Page -------------------*/
@@ -6377,7 +6377,7 @@ div#wrapper.open > .offcanvas-mask {
 }
 .project-wrap-layout3 {
   padding: 9.4rem 0 10rem;
-  background-image: url('/img/figure/sky-bg.png');
+  background-image: url('/roof/img/figure/sky-bg.png');
   background-repeat: no-repeat;
   background-position: left top;
 }
@@ -6957,7 +6957,7 @@ div#wrapper.open > .offcanvas-mask {
   z-index: 2;
 }
 .service-wrap-layout1:after {
-  content: url('/img/figure/line-shape.png');
+  content: url('/roof/img/figure/line-shape.png');
   position: absolute;
   top: 50%;
   left: 50%;
@@ -6972,7 +6972,7 @@ div#wrapper.open > .offcanvas-mask {
 .service-wrap-layout2 {
   padding: 14rem 0 5.2rem;
   position: relative;
-  background-image: url('/img/about/about3.png');
+  background-image: url('/roof/img/about/about3.png');
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-position-x: 115px;
@@ -7234,7 +7234,7 @@ div#wrapper.open > .offcanvas-mask {
   z-index: 1;
 }
 .service-box-layout5:after {
-  content: url('/img/figure/shape.png');
+  content: url('/roof/img/figure/shape.png');
   position: absolute;
   top: 0;
   left: 0;
@@ -7483,7 +7483,7 @@ div#wrapper.open > .offcanvas-mask {
   border-radius: 4px;
 }
 .single-service-box-layout1 .item-content .more-info .more-info-box .item-img:after {
-  content: url('/img/service/pattern.png');
+  content: url('/roof/img/service/pattern.png');
   position: absolute;
   top: -32px;
   left: 0;
@@ -7498,7 +7498,7 @@ div#wrapper.open > .offcanvas-mask {
   border-radius: 4px;
 }
 .single-service-box-layout1 .item-content .more-info .more-info-box .item-img-2:after {
-  content: url('/img/service/pattern.png');
+  content: url('/roof/img/service/pattern.png');
   position: absolute;
   top: -32px;
   right: 0;
@@ -8796,7 +8796,7 @@ div#wrapper.open > .offcanvas-mask {
   z-index: 1;
 }
 .bg-shape-1:after {
-  content: url('/img/figure/clip1.png');
+  content: url('/roof/img/figure/clip1.png');
   position: absolute;
   left: 0;
   top: 50%;
@@ -8805,7 +8805,7 @@ div#wrapper.open > .offcanvas-mask {
   z-index: -1;
 }
 .bg-shape-1:before {
-  content: url('/img/figure/clip2.png');
+  content: url('/roof/img/figure/clip2.png');
   position: absolute;
   right: 110px;
   bottom: 0;
@@ -8817,7 +8817,7 @@ div#wrapper.open > .offcanvas-mask {
   z-index: 1;
 }
 .bg-shape-2:after {
-  content: url('/img/figure/clip4.png');
+  content: url('/roof/img/figure/clip4.png');
   position: absolute;
   left: 130px;
   bottom: 0;
@@ -8830,7 +8830,7 @@ div#wrapper.open > .offcanvas-mask {
   }
 }
 .bg-shape-2:before {
-  content: url('/img/figure/clip3.png');
+  content: url('/roof/img/figure/clip3.png');
   position: absolute;
   right: 190px;
   bottom: 0;
@@ -8848,7 +8848,7 @@ div#wrapper.open > .offcanvas-mask {
   z-index: 1;
 }
 .bg-shape-3:after {
-  content: url('/img/figure/clip5.png');
+  content: url('/roof/img/figure/clip5.png');
   position: absolute;
   left: 250px;
   top: 50%;
@@ -8862,7 +8862,7 @@ div#wrapper.open > .offcanvas-mask {
   }
 }
 .bg-shape-3:before {
-  content: url('/img/figure/clip3.png');
+  content: url('/roof/img/figure/clip3.png');
   position: absolute;
   right: 190px;
   bottom: 0;
@@ -8879,7 +8879,7 @@ div#wrapper.open > .offcanvas-mask {
   overflow: hidden;
 }
 .bg-shape-4:after {
-  content: url('/img/figure/clip1.png');
+  content: url('/roof/img/figure/clip1.png');
   position: absolute;
   left: 0;
   top: 50%;
@@ -8893,7 +8893,7 @@ div#wrapper.open > .offcanvas-mask {
   }
 }
 .bg-shape-4:before {
-  content: url('/img/figure/clip6.png');
+  content: url('/roof/img/figure/clip6.png');
   position: absolute;
   right: 110px;
   bottom: 75px;
@@ -8911,7 +8911,7 @@ div#wrapper.open > .offcanvas-mask {
   overflow: hidden;
 }
 .bg-shape-5:after {
-  content: url('/img/figure/clip7.png');
+  content: url('/roof/img/figure/clip7.png');
   position: absolute;
   left: 0;
   top: 50%;
@@ -8920,7 +8920,7 @@ div#wrapper.open > .offcanvas-mask {
   z-index: -1;
 }
 .bg-shape-5:before {
-  content: url('/img/figure/clip8.png');
+  content: url('/roof/img/figure/clip8.png');
   position: absolute;
   right: 0;
   bottom: 0;
@@ -8932,7 +8932,7 @@ div#wrapper.open > .offcanvas-mask {
   z-index: 1;
 }
 .bg-shape-6:after {
-  content: url('/img/figure/clip4.png');
+  content: url('/roof/img/figure/clip4.png');
   position: absolute;
   left: 130px;
   bottom: 0;
@@ -8945,7 +8945,7 @@ div#wrapper.open > .offcanvas-mask {
   }
 }
 .bg-shape-6:before {
-  content: url('/img/figure/clip9.png');
+  content: url('/roof/img/figure/clip9.png');
   position: absolute;
   right: 270px;
   top: 50%;

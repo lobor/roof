@@ -15,7 +15,7 @@ export default function APropos() {
             title: "À propos de nous - Exemple",
             description:
               "Apprenez-en plus sur notre entreprise, notre mission et nos valeurs.",
-            images: [{ url: "/images/a-propos.jpg" }],
+            images: [{ url: "/roof/images/a-propos.jpg" }],
           },
         })}
       </Head>
