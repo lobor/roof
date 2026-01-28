@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactStrictMode: true,
   output: "export",
-  siteUrl: process.env.SITE_URL || "https://example.com",
+  basePath: `/roof`,
   generateRobotsTxt: true,
 };
 
