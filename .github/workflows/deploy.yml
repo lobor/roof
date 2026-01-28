@@ -11,18 +11,21 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: '20'
+
+      - name: Install pnpm
+        run: npm install -g pnpm@10.22.0
 
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build Next.js project
-        run: pnpm run build  # build + next export
+      - name: Build Next.js static files
+        run: pnpm run build  # doit exécuter next export
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
