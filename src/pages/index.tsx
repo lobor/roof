@@ -102,196 +102,6 @@ export default function Home() {
           </SwiperSlide>
         ))}
       </Swiper>
-      {/* <section className="slick-slider-wrap-layout1">
-        <div className="slick-slider-layout1">
-          <Slider
-            ref={(slider) => (sliderRef1.current = slider)}
-            className="slick-carousel slick-content"
-            {...{
-              slidesToShow: 1,
-              slidesToShowTab: 1,
-              slidesToShowMobile: 1,
-              slidesToShowMobiles: 1,
-              slidesToScroll: 1,
-              speed: 1000,
-              autoplaySpeed: 2000,
-              dots: false,
-              arrows: false,
-              lazyLoad: "progressive",
-              pauseOnHover: true,
-              autoplay: true,
-              centerMode: true,
-              adaptiveHeight: false,
-              rtl: false,
-              asNavFor: nav2,
-            }}
-          >
-            {/* <div
-            className="slick-carousel slick-content"
-            data-slick='{
-                    "slidesToShow": 1,
-                    "slidesToShowTab": 1,
-                    "slidesToShowMobile": 1,
-                    "slidesToShowMobiles": 1,
-                    "slidesToScroll": 1,
-                    "speed": 1000,
-                    "autoplaySpeed": 2000,
-                    "dots": false,
-                    "arrows": false,
-                    "lazyLoad": "progressive",
-                    "pauseOnHover": true,
-                    "autoplay": true,
-                    "centerMode": true,
-                    "adaptiveHeight": false,
-                    "rtl": false,
-                    "asNavFor": ".slick-nav"
-                    }'
-          >
-            <div className="slick-slider">
-              <div className="item-img">
-                <img src="/images/inspection.jpg" alt="slide" />
-                <div className="item-content">
-                  <div className="big-text">Inspection toiture</div>
-                </div>
-              </div>
-            </div>
-            <div className="slick-slider">
-              <div className="item-img">
-                <img src="/images/roof_window.jpg" alt="slide" />
-                <div className="item-content">
-                  <div className="big-text">Revêtement toiture</div>
-                </div>
-              </div>
-            </div>
-            <div className="slick-slider">
-              <div className="item-img">
-                <img src="/images/roof_repare.jpg" alt="slide" />
-                <div className="item-content">
-                  <div className="big-text">Remplacement toiture</div>
-                </div>
-              </div>
-            </div>
-            <div className="slick-slider">
-              <div className="item-img">
-                <img src="/img/slider/slide1-4.jpg" alt="slide" />
-                <div className="item-content">
-                  <div className="big-text">Isolation toiture</div>
-                </div>
-              </div>
-            </div>
-            <div className="slick-slider">
-              <div className="item-img">
-                <img src="/img/slider/slide1-5.jpg" alt="slide" />
-                <div className="item-content">
-                  <div className="big-text">Gouttière</div>
-                </div>
-              </div>
-            </div>
-            <div className="slick-slider">
-              <div className="item-img">
-                <img src="/img/slider/slide1-6.jpg" alt="slide" />
-                <div className="item-content">
-                  <div className="big-text">Réparation toiture</div>
-                </div>
-              </div>
-            </div>
-            {/* </div>
-          </Slider>
-          <div className="slick-nav-wrap">
-            <div className="container">
-              <Slider
-                className="slick-carousel slick-nav"
-                asNavFor={nav1}
-                ref={(slider) => (sliderRef2.current = slider)}
-                {...{
-                  slidesToShow: 6,
-                  slidesToShowTab: 5,
-                  slidesToShowMobile: 3,
-                  slidesToShowMobiles: 2,
-                  slidesToScroll: 1,
-                  speed: 1000,
-                  autoplaySpeed: 2000,
-                  dots: false,
-                  arrows: false,
-                  lazyLoad: "progressive",
-                  pauseOnHover: true,
-                  autoplay: true,
-                  focusOnSelect: true,
-                  centerMode: false,
-                  adaptiveHeight: false,
-                  rtl: false,
-                  asNavFor: ".slick-content",
-                  prevArrow:
-                    '<span class="slick-prev slick-navigation"><i class="flaticon-back"></i></span>',
-                  nextArrow:
-                    '<span class="slick-next slick-navigation"><i class="flaticon-next"></i></span>',
-                }}
-              ></Slider>
-              {/* <div
-                className="slick-carousel slick-nav"
-                data-slick='{
-                            "slidesToShow": 6,
-                            "slidesToShowTab": 5,
-                            "slidesToShowMobile": 3,
-                            "slidesToShowMobiles": 2,
-                            "slidesToScroll": 1,
-                            "speed": 1000,
-                            "autoplaySpeed": 2000,
-                            "dots": false,
-                            "arrows": false,
-                            "lazyLoad": "progressive",
-                            "pauseOnHover": true,
-                            "autoplay": true,
-                            "focusOnSelect": true,
-                            "centerMode": false,
-                            "adaptiveHeight": false,
-                            "rtl": false,
-                            "asNavFor": ".slick-content",
-                            "prevArrow": "<span class=\"slick-prev slick-navigation\"><i class=\"flaticon-back\"></i></span>",
-                            "nextArrow": "<span class=\"slick-next slick-navigation\"><i class=\"flaticon-next\"></i></span>"
-                            }'
-              >
-                <div className="nav-item">
-                  <div className="item-icon">
-                    <i className="flaticon-roof-4"></i>
-                  </div>
-                  <h4 className="item-title ">Inspection</h4>
-                </div>
-                <div className="nav-item">
-                  <div className="item-icon">
-                    <i className="flaticon-roof"></i>
-                  </div>
-                  <h4 className="item-title">Revêtement</h4>
-                </div>
-                <div className="nav-item">
-                  <div className="item-icon">
-                    <i className="flaticon-roof-1"></i>
-                  </div>
-                  <h4 className="item-title">Remplacement</h4>
-                </div>
-                <div className="nav-item">
-                  <div className="item-icon">
-                    <i className="flaticon-roof-3"></i>
-                  </div>
-                  <h4 className="item-title">Isolation</h4>
-                </div>
-                <div className="nav-item">
-                  <div className="item-icon">
-                    <i className="flaticon-roof-2"></i>
-                  </div>
-                  <h4 className="item-title">Gouttière</h4>
-                </div>
-                <div className="nav-item">
-                  <div className="item-icon">
-                    <i className="flaticon-broken-house"></i>
-                  </div>
-                  <h4 className="item-title">Réparation</h4>
-                </div>
-              </div>
-            </div>
-          {/* </div>
-        </div>
-      </section> */}
       <section className="about-wrap-layout2 bg-shape-2">
         <div className="container">
           <div className="row">
@@ -314,17 +124,17 @@ export default function Home() {
                 <div className="row">
                   <div className="col-4">
                     <div className="item-img">
-                      <img src="/img/about/award.png" alt="Photo" />
+                      <img src="/roof/img/about/award.png" alt="Photo" />
                     </div>
                   </div>
                   <div className="col-4">
                     <div className="item-img">
-                      <img src="/img/about/award1.png" alt="Photo" />
+                      <img src="/roof/img/about/award1.png" alt="Photo" />
                     </div>
                   </div>
                   <div className="col-4">
                     <div className="item-img">
-                      <img src="/img/about/award2.png" alt="Photo" />
+                      <img src="/roof/img/about/award2.png" alt="Photo" />
                     </div>
                   </div>
                 </div>
@@ -340,7 +150,7 @@ export default function Home() {
               <div className="about-box-layout4">
                 <div className="about-box-img">
                   <div className="item-img">
-                    <img src="/img/about/about1.jpg" alt="about" />
+                    <img src="/roof/img/about/about1.jpg" alt="about" />
                   </div>
                   <div className="sl-number">01</div>
                 </div>
@@ -370,7 +180,7 @@ export default function Home() {
               <div className="about-box-layout5">
                 <div className="about-box-img">
                   <div className="item-img">
-                    <img src="/img/about/about2.jpg" alt="about" />
+                    <img src="/roof/img/about/about2.jpg" alt="about" />
                     <div className="item-icon">
                       <a
                         className="play-btn popup-youtube"
@@ -420,7 +230,7 @@ export default function Home() {
             <div className="col-lg-3 col-md-6">
               <div className="service-box-layout1">
                 <div className="item-img">
-                  <img src="/img/service/service1.jpg" alt="service" />
+                  <img src="/roof/img/service/service1.jpg" alt="service" />
                   <div className="sl-number">01</div>
                 </div>
                 <div className="item-content">
@@ -434,7 +244,7 @@ export default function Home() {
             <div className="col-lg-3 col-md-6">
               <div className="service-box-layout1">
                 <div className="item-img">
-                  <img src="/img/service/service2.jpg" alt="service" />
+                  <img src="/roof/img/service/service2.jpg" alt="service" />
                   <div className="sl-number">02</div>
                 </div>
                 <div className="item-content">
@@ -448,7 +258,7 @@ export default function Home() {
             <div className="col-lg-3 col-md-6">
               <div className="service-box-layout1">
                 <div className="item-img">
-                  <img src="/img/service/service3.jpg" alt="service" />
+                  <img src="/roof/img/service/service3.jpg" alt="service" />
                   <div className="sl-number">03</div>
                 </div>
                 <div className="item-content">
@@ -462,7 +272,7 @@ export default function Home() {
             <div className="col-lg-3 col-md-6">
               <div className="service-box-layout1">
                 <div className="item-img">
-                  <img src="/img/service/service4.jpg" alt="service" />
+                  <img src="/roof/img/service/service4.jpg" alt="service" />
                   <div className="sl-number">04</div>
                 </div>
                 <div className="item-content">
@@ -489,7 +299,7 @@ export default function Home() {
             <div className="col-lg-4 col-md-6 col-12">
               <div className="project-box-layout1">
                 <div className="item-img">
-                  <img src="/img/project/project1.jpg" alt="project" />
+                  <img src="/roof/img/project/project1.jpg" alt="project" />
                 </div>
                 <div className="item-content">
                   <h3 className="item-title">
@@ -504,7 +314,7 @@ export default function Home() {
             <div className="col-lg-4 col-md-6 col-12">
               <div className="project-box-layout1">
                 <div className="item-img">
-                  <img src="/img/project/project2.jpg" alt="project" />
+                  <img src="/roof/img/project/project2.jpg" alt="project" />
                 </div>
                 <div className="item-content">
                   <h3 className="item-title">
@@ -519,7 +329,7 @@ export default function Home() {
             <div className="col-lg-4 col-md-6 col-12">
               <div className="project-box-layout1">
                 <div className="item-img">
-                  <img src="/img/project/project3.jpg" alt="project" />
+                  <img src="/roof/img/project/project3.jpg" alt="project" />
                 </div>
                 <div className="item-content">
                   <h3 className="item-title">
@@ -534,7 +344,7 @@ export default function Home() {
             <div className="col-lg-4 col-md-6 col-12">
               <div className="project-box-layout1">
                 <div className="item-img">
-                  <img src="/img/project/project4.jpg" alt="project" />
+                  <img src="/roof/img/project/project4.jpg" alt="project" />
                 </div>
                 <div className="item-content">
                   <h3 className="item-title">
@@ -549,7 +359,7 @@ export default function Home() {
             <div className="col-lg-4 col-md-6 col-12">
               <div className="project-box-layout1">
                 <div className="item-img">
-                  <img src="/img/project/project5.jpg" alt="project" />
+                  <img src="/roof/img/project/project5.jpg" alt="project" />
                 </div>
                 <div className="item-content">
                   <h3 className="item-title">
@@ -564,7 +374,7 @@ export default function Home() {
             <div className="col-lg-4 col-md-6 col-12">
               <div className="project-box-layout1">
                 <div className="item-img">
-                  <img src="/img/project/project6.jpg" alt="project" />
+                  <img src="/roof/img/project/project6.jpg" alt="project" />
                 </div>
                 <div className="item-content">
                   <h3 className="item-title">
